@@ -1,0 +1,105 @@
+/* K.A.T. Thiwanka
+IT19076362 */
+@charset "ISO-8859-1";
+
+span {
+   font-size: 1.3rem;
+   margin-right: 2rem;
+   color: grey;
+}
+
+a, #del-btn {
+	display: inline-block;
+}
+
+#up-btn,
+#del-btn,
+#book-btn {
+	font-size: 1rem;
+}
+
+.profileRes {
+	color: black;
+}
+
+.middle {
+   margin-top: 5rem;
+   display: flex;
+}
+
+.middle .img-container {
+   margin-top: 3rem;
+   margin-left: 5rem;
+   animation: content-fade 2s ease;
+}
+
+.middle .form-container {
+   width: 30vw;
+   height: 60vh;
+   margin-top: 3rem;
+   margin-left: 13rem;
+   animation: title-fade 1s ease;
+}
+
+.middle .form-container h1 {
+   text-transform: uppercase;
+   font-weight: 600;
+}
+
+.middle .form-container #up-btn,
+.middle .form-container #del-btn {
+	margin-right: 0.9rem;	
+}
+
+.middle .form-container #up-btn,
+.middle .form-container #del-btn,
+.middle .form-container #book-btn,
+.middle .form-container #event-btn,
+.logout {
+   background-color: #536dfe;
+   outline: none;
+   border: none;
+   color: white;
+   padding: 0.7rem 1.2rem;
+   border-radius: 0.2rem;
+   font-weight: 600;
+   margin-top: 1rem;
+   cursor: pointer;
+}
+
+.logout {
+	float: right;
+	margin-right: 4.4rem;
+	animation: title-fade 1s ease;
+	padding: 0.5rem 1rem;
+}
+
+.middle .form-container #book-btn,
+.middle .form-container #event-btn {
+   padding: 0.5rem 5.7rem;
+   font-size: 1.5rem;
+}
+
+.middle .form-container #event-btn {
+	padding: 0.5rem 6.1rem;
+}
+
+.logout:hover,
+.middle .form-container #up-btn:hover,
+.middle .form-container #del-btn:hover,
+.middle .form-container #book-btn:hover,
+.middle .form-container #event-btn:hover {
+   text-decoration: none;
+   color: #536dfe;
+   background-color: white;
+   transition: ease 0.7s;
+}
+
+.result {
+	margin-top: 8rem;
+	margin-right: 10rem;
+}
+
+#event-btn {
+	margin-top: -2rem;
+}

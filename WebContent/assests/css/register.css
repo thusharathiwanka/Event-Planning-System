@@ -1,0 +1,68 @@
+/* K.A.T. Thiwanka
+IT19076362 */
+@charset "ISO-8859-1";
+
+span {
+   margin-right: 1.3rem;
+   color: grey;
+}
+
+.middle {
+   margin-top: 5rem;
+   display: flex;
+}
+
+.middle .img-container {
+   margin-left: 11rem;
+   animation: content-fade 2s ease;
+}
+
+.middle .form-container {
+   width: 30vw;
+   height: 60vh;
+   margin-top: 2.5rem;
+   margin-left: 19.6rem;
+   animation: title-fade 1s ease;
+}
+
+.middle .form-container h1 {
+   text-transform: uppercase;
+   font-weight: 600;
+}
+
+.middle .input {
+   margin: 1.5rem 0 1rem 0;
+   outline: none;
+   border: none;
+   border-bottom: 1.3px solid #757575;
+   width: 18rem;
+}
+
+.middle .input:focus {
+   width: 23rem;
+   transition: width 0.5s ease;
+}
+
+.middle .email,
+.middle .province {
+   margin-bottom: 2rem;
+}
+
+.middle .form-container #reg-btn {
+   background-color: #536dfe;
+   outline: none;
+   border: none;
+   color: white;
+   padding: 0.5rem 1rem;
+   border-radius: 0.2rem;
+   font-weight: 600;
+   margin-top: 2rem;
+   cursor: pointer;
+   text-transform: uppercase;
+}
+
+.middle .form-container #reg-btn:hover {
+   color: #536dfe;
+   background-color: white;
+   transition: ease 0.7s;
+}

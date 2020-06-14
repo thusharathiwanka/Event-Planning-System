@@ -1,0 +1,53 @@
+/* K.A.T. Thiwanka
+IT19076362 */
+@charset "ISO-8859-1";
+
+.middle .content {
+	margin-top: 3rem;
+	display: flex;
+}
+
+.middle img {
+	animation: content-fade 2s ease;
+}
+
+.middle .title {
+	animation: title-fade 1s ease;
+}
+
+.middle h1 {
+	margin: 5rem 0 2rem 2rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.middle .content .btn {
+	margin-left: 2.2rem;
+}
+
+.middle .content #register {
+	margin-left: 0.9rem;
+}
+
+.middle .content a {
+	color: white;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: #536dfe;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	margin: 0rem 0.2rem;
+	padding: 0.5rem 1rem;
+	border-radius: 0.2rem;
+}
+
+.middle .content a:hover {
+	color: #536dfe;
+	background-color: white;
+	transition: ease 0.7s;
+}
+
+.middle img {
+	width: 55rem;
+}
